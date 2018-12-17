@@ -10,5 +10,15 @@ $(document).ready(function() {
         var q3Result = $("#question3").val();
         var totalScore;
     });
-
+    
+    
+function namePoints (name){
+if (name === name ){
+  return name.length;
+    
+}else{
+    return false; 
+}}
 });
+console.log(namePoints("THEDLDEsofHJ")); 
+
